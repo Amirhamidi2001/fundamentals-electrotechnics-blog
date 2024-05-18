@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -15,19 +16,19 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
+    <script src="{% static 'js/modernizr.js' %}"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon-16x16.png' %}">
     <link rel="manifest" href="site.webmanifest">
 
 </head>
@@ -53,7 +54,7 @@
             <div class="header__top">
                 <div class="header__logo">
                     <a class="site-logo" href="index.html">
-                        <img src="images/logo.svg" alt="Homepage">
+                        <p>This Is Our Story</p>
                     </a>
                 </div>
 
@@ -81,26 +82,8 @@
 
                 <ul class="header__nav">
                     <li><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
-                        <a href="#0" title="">Categories</a>
-                        <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-children">
-                        <a href="#0" title="">Blog</a>
-                        <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="styles.html" title="">Styles</a></li>
+                    <li><a href="styles.html" title="">Styles</a></li>
                     <li><a href="styles.html" title="">Styles</a></li>
                     <li class="current"><a href="page-about.html" title="">About</a></li>
                     <li><a href="page-contact.html" title="">Contact</a></li>
@@ -141,76 +124,210 @@
                 
                 <section class="column large-full entry format-standard">
 
-                    <div class="media-wrap">
-                        <div>
-                            <img src="images/thumbs/about/about-1000.jpg" srcset="images/thumbs/about/about-2000.jpg 2000w, 
-                                      images/thumbs/about/about-1000.jpg 1000w, 
-                                      images/thumbs/about/about-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-                        </div>
-                    </div>
-
                     <div class="content__page-header">
                         <h1 class="display-1">
-                        Hello, We Are TypeRite.
+                            Exploring the Fundamentals of Electrotechnics: A Comprehensive Guide
                         </h1>
                     </div> <!-- end content__page-header -->
 
                     <p class="lead drop-cap">
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat 
-                    fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation 
-                    incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor 
-                    dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui 
-                    labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua 
-                    ea nisi sint.
+                        Electricity is a fundamental force that powers our modern world, driving everything from the lights in our homes to the complex machinery in industrial settings. Understanding the principles of electrotechnics is essential for anyone working with electrical systems or seeking a deeper comprehension of how technology functions. This comprehensive guide delves into the core concepts of electrotechnics, offering readers a thorough exploration of voltage, current, resistance, and circuit analysis.
                     </p>
 
+                    <h2>Introduction</h2>
+
                     <p>
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat 
-                    dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit 
-                    id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit 
-                    nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam 
-                    consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut 
-                    dolore culpa occaecat.
+                        In today's interconnected world, the role of electricity transcends mere convenience; it is the lifeblood of modern civilization, powering industries, homes, and communication networks alike. Our reliance on electrical systems is so ingrained that we often take for granted the intricate processes that enable a simple flip of a switch to illuminate a room or charge a smartphone. Yet, behind this seemingly effortless act lies a labyrinth of principles and technologies that constitute the realm of electrotechnics.
+                    <p>
                     </p>
-
-                    <h2>This Is Our Story</h2>
-
+                        From the crackling hum of high-voltage power lines to the gentle hum of a laptop charger, electricity manifests in myriad forms, each governed by fundamental principles that have shaped the course of human progress. At its core, electrotechnics delves into the intricate dance of electrons, exploring concepts such as voltage, current, resistance, and circuit analysis to unravel the mysteries of electrical phenomena.
+                    </p>
                     <p>
-                    Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti 
-                    dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
-                    sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis 
-                    
+                        In this comprehensive guide, we embark on a journey through the foundational principles of electrotechnics, shedding light on the underlying mechanisms that power our modern world. By peeling back the layers of complexity, we aim to demystify the workings of electrical systems, empowering readers to grasp the nuances of voltage fluctuations, navigate intricate circuits, and harness the power of electricity with confidence.
+                    </p>
                     <p>
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor 
-                    sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim 
-                    mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco. Lorem 
-                    ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat aute.
+                        Join us as we delve into the heart of electrotechnics, exploring its historical roots, fundamental principles, and practical applications in an ever-evolving technological landscape. Whether you're a novice seeking to unravel the secrets of electricity or a seasoned professional looking to deepen your understanding, this guide serves as a beacon, illuminating the path to electrical enlightenment.
+                    </p>
+                    <p>
+                        Prepare to embark on a journey of discovery as we unravel the mysteries of voltage, current, resistance, and circuit analysis, forging a deeper connection with the electrifying world that surrounds us.
                     </p>
 
                     <hr>
 
+                    <h2>Understanding Voltage</h2>
+
+                    <p>
+                        Voltage, the fundamental concept of electrical potential difference, serves as the impetus behind the flow of electrical current, driving the intricate machinery of our modern world. In this chapter, we delve into the essence of voltage, unraveling its intricacies and exploring its profound significance in electrical systems.
+                    </p>
+
                     <div class="row block-large-1-2 block-tab-full">
                         <div class="column">
-                            <h4>Who We Are.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                            <h4>What is Voltage?</h4>
+                            <p>At its essence, voltage represents the potential energy per unit charge between two points in an electrical circuit. Analogous to the pressure difference in a water pipe that drives the flow of water, voltage acts as the driving force that propels electrons through conductive materials. This electrical potential difference arises from the redistribution of charges within a system, creating an imbalance that seeks equilibrium through the flow of current.</p>
                         </div>
 
                         <div class="column">
-                            <h4>Our Mission.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                            <h4>Units of Measurement</h4>
+                            <p>Voltage is quantified in volts (V), named in honor of Italian physicist Alessandro Volta, whose pioneering work laid the foundation for modern electrotechnics. One volt is defined as the potential difference required to impart one joule of energy to a unit of electric charge (one coulomb). Additionally, voltage can be expressed in millivolts (mV) or kilovolts (kV), depending on the scale of the electrical system under consideration.</p>
                         </div>
 
                         <div class="column">
-                            <h4>Our Vision.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                            <h4>Significance in Electrical Systems</h4>
+                            <p>The significance of voltage in electrical systems cannot be overstated. It dictates the intensity of the electric field within a circuit, influencing the rate at which charge carriers move and the magnitude of current flow. From the humble battery powering a flashlight to the intricate network of power grids distributing electricity across continents, voltage governs the operation of every electrical device and system.</p>
                         </div>
 
                         <div class="column">
-                            <h4>Our Core Values.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                            <h4>Practical Examples</h4>
+                            <p>To elucidate the concept of voltage, let us consider a practical example: the operation of a light bulb. When connected to a power source, such as a battery or an electrical outlet, the light bulb experiences a voltage difference across its terminals. This potential difference drives the flow of electrons through the filament, causing it to heat up and emit light. Thus, the voltage supplied to the light bulb directly influences its luminosity and overall performance.</p>
                         </div>
 
                     </div>
+
+                    <p>
+                        In conclusion, voltage serves as the cornerstone of electrotechnics, embodying the driving force behind the flow of electrical current. By understanding the concept of voltage, readers gain insight into the inner workings of electrical systems, empowering them to navigate the complexities of modern technology with confidence. As we embark on this journey through the realm of electrotechnics, let us embrace the electrifying potential of voltage, illuminating the path to a deeper understanding of our electrified world.
+                    </p>
+
+                    <hr>
+
+                    <h2>Exploring Current</h2>
+
+                    <p>
+                        Current, the measure of the rate of flow of electric charge, stands as a cornerstone of electrotechnics, shaping the dynamics of electrical systems with its omnipresent influence. In this chapter, we embark on a journey through the concept of current, unraveling its intricacies and exploring its intimate relationship with voltage and resistance. Through interactive simulations and real-world applications, readers will gain a deeper understanding of the behavior of electric currents in diverse circuits and systems.
+                    </p>
+
+                    <div class="row block-large-1-2 block-tab-full">
+                        <div class="column">
+                            <h4>Understanding Current</h4>
+                            <p>At its core, electric current represents the flow of charged particles, typically electrons, through a conductor. Analogous to the flow of water in a river, current describes the movement of electric charge carriers propelled by the voltage difference within a circuit. Current is measured in amperes (A), named after French physicist André-Marie Ampère, with one ampere defined as the flow of one coulomb of charge per second.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Relationship with Voltage and Resistance</h4>
+                            <p>The interplay between current, voltage, and resistance forms the foundation of Ohm's Law, a fundamental principle in electrotechnics. According to Ohm's Law, the current (I) flowing through a conductor is directly proportional to the voltage (V) applied across it and inversely proportional to the resistance (R) encountered. This relationship is encapsulated in the equation: I = V / R. By manipulating voltage and resistance, engineers can control the magnitude of current flow within a circuit, enabling precise regulation of electrical systems.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Significance in Electrical Systems</h4>
+                            <p>The significance of voltage in electrical systems cannot be overstated. It dictates the intensity of the electric field within a circuit, influencing the rate at which charge carriers move and the magnitude of current flow. From the humble battery powering a flashlight to the intricate network of power grids distributing electricity across continents, voltage governs the operation of every electrical device and system.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Practical Examples</h4>
+                            <p>To elucidate the concept of voltage, let us consider a practical example: the operation of a light bulb. When connected to a power source, such as a battery or an electrical outlet, the light bulb experiences a voltage difference across its terminals. This potential difference drives the flow of electrons through the filament, causing it to heat up and emit light. Thus, the voltage supplied to the light bulb directly influences its luminosity and overall performance.</p>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        In conclusion, voltage serves as the cornerstone of electrotechnics, embodying the driving force behind the flow of electrical current. By understanding the concept of voltage, readers gain insight into the inner workings of electrical systems, empowering them to navigate the complexities of modern technology with confidence. As we embark on this journey through the realm of electrotechnics, let us embrace the electrifying potential of voltage, illuminating the path to a deeper understanding of our electrified world.
+                    </p>
+
+                    <hr>
+
+                    <h2>Understanding Voltage</h2>
+
+                    <p>
+                        Voltage, the fundamental concept of electrical potential difference, serves as the impetus behind the flow of electrical current, driving the intricate machinery of our modern world. In this chapter, we delve into the essence of voltage, unraveling its intricacies and exploring its profound significance in electrical systems.
+                    </p>
+
+                    <div class="row block-large-1-2 block-tab-full">
+                        <div class="column">
+                            <h4>What is Voltage?</h4>
+                            <p>At its essence, voltage represents the potential energy per unit charge between two points in an electrical circuit. Analogous to the pressure difference in a water pipe that drives the flow of water, voltage acts as the driving force that propels electrons through conductive materials. This electrical potential difference arises from the redistribution of charges within a system, creating an imbalance that seeks equilibrium through the flow of current.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Units of Measurement</h4>
+                            <p>Voltage is quantified in volts (V), named in honor of Italian physicist Alessandro Volta, whose pioneering work laid the foundation for modern electrotechnics. One volt is defined as the potential difference required to impart one joule of energy to a unit of electric charge (one coulomb). Additionally, voltage can be expressed in millivolts (mV) or kilovolts (kV), depending on the scale of the electrical system under consideration.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Significance in Electrical Systems</h4>
+                            <p>The significance of voltage in electrical systems cannot be overstated. It dictates the intensity of the electric field within a circuit, influencing the rate at which charge carriers move and the magnitude of current flow. From the humble battery powering a flashlight to the intricate network of power grids distributing electricity across continents, voltage governs the operation of every electrical device and system.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Practical Examples</h4>
+                            <p>To elucidate the concept of voltage, let us consider a practical example: the operation of a light bulb. When connected to a power source, such as a battery or an electrical outlet, the light bulb experiences a voltage difference across its terminals. This potential difference drives the flow of electrons through the filament, causing it to heat up and emit light. Thus, the voltage supplied to the light bulb directly influences its luminosity and overall performance.</p>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        In conclusion, voltage serves as the cornerstone of electrotechnics, embodying the driving force behind the flow of electrical current. By understanding the concept of voltage, readers gain insight into the inner workings of electrical systems, empowering them to navigate the complexities of modern technology with confidence. As we embark on this journey through the realm of electrotechnics, let us embrace the electrifying potential of voltage, illuminating the path to a deeper understanding of our electrified world.
+                    </p>
+
+                    <hr>
+
+                    <h2>Understanding Voltage</h2>
+
+                    <p>
+                        Voltage, the fundamental concept of electrical potential difference, serves as the impetus behind the flow of electrical current, driving the intricate machinery of our modern world. In this chapter, we delve into the essence of voltage, unraveling its intricacies and exploring its profound significance in electrical systems.
+                    </p>
+
+                    <div class="row block-large-1-2 block-tab-full">
+                        <div class="column">
+                            <h4>What is Voltage?</h4>
+                            <p>At its essence, voltage represents the potential energy per unit charge between two points in an electrical circuit. Analogous to the pressure difference in a water pipe that drives the flow of water, voltage acts as the driving force that propels electrons through conductive materials. This electrical potential difference arises from the redistribution of charges within a system, creating an imbalance that seeks equilibrium through the flow of current.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Units of Measurement</h4>
+                            <p>Voltage is quantified in volts (V), named in honor of Italian physicist Alessandro Volta, whose pioneering work laid the foundation for modern electrotechnics. One volt is defined as the potential difference required to impart one joule of energy to a unit of electric charge (one coulomb). Additionally, voltage can be expressed in millivolts (mV) or kilovolts (kV), depending on the scale of the electrical system under consideration.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Significance in Electrical Systems</h4>
+                            <p>The significance of voltage in electrical systems cannot be overstated. It dictates the intensity of the electric field within a circuit, influencing the rate at which charge carriers move and the magnitude of current flow. From the humble battery powering a flashlight to the intricate network of power grids distributing electricity across continents, voltage governs the operation of every electrical device and system.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Practical Examples</h4>
+                            <p>To elucidate the concept of voltage, let us consider a practical example: the operation of a light bulb. When connected to a power source, such as a battery or an electrical outlet, the light bulb experiences a voltage difference across its terminals. This potential difference drives the flow of electrons through the filament, causing it to heat up and emit light. Thus, the voltage supplied to the light bulb directly influences its luminosity and overall performance.</p>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        In conclusion, voltage serves as the cornerstone of electrotechnics, embodying the driving force behind the flow of electrical current. By understanding the concept of voltage, readers gain insight into the inner workings of electrical systems, empowering them to navigate the complexities of modern technology with confidence. As we embark on this journey through the realm of electrotechnics, let us embrace the electrifying potential of voltage, illuminating the path to a deeper understanding of our electrified world.
+                    </p>
+
+                    <hr>
+
+                    <h2>Understanding Voltage</h2>
+
+                    <p>
+                        Voltage, the fundamental concept of electrical potential difference, serves as the impetus behind the flow of electrical current, driving the intricate machinery of our modern world. In this chapter, we delve into the essence of voltage, unraveling its intricacies and exploring its profound significance in electrical systems.
+                    </p>
+
+                    <div class="row block-large-1-2 block-tab-full">
+                        <div class="column">
+                            <h4>What is Voltage?</h4>
+                            <p>At its essence, voltage represents the potential energy per unit charge between two points in an electrical circuit. Analogous to the pressure difference in a water pipe that drives the flow of water, voltage acts as the driving force that propels electrons through conductive materials. This electrical potential difference arises from the redistribution of charges within a system, creating an imbalance that seeks equilibrium through the flow of current.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Units of Measurement</h4>
+                            <p>Voltage is quantified in volts (V), named in honor of Italian physicist Alessandro Volta, whose pioneering work laid the foundation for modern electrotechnics. One volt is defined as the potential difference required to impart one joule of energy to a unit of electric charge (one coulomb). Additionally, voltage can be expressed in millivolts (mV) or kilovolts (kV), depending on the scale of the electrical system under consideration.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Significance in Electrical Systems</h4>
+                            <p>The significance of voltage in electrical systems cannot be overstated. It dictates the intensity of the electric field within a circuit, influencing the rate at which charge carriers move and the magnitude of current flow. From the humble battery powering a flashlight to the intricate network of power grids distributing electricity across continents, voltage governs the operation of every electrical device and system.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Practical Examples</h4>
+                            <p>To elucidate the concept of voltage, let us consider a practical example: the operation of a light bulb. When connected to a power source, such as a battery or an electrical outlet, the light bulb experiences a voltage difference across its terminals. This potential difference drives the flow of electrons through the filament, causing it to heat up and emit light. Thus, the voltage supplied to the light bulb directly influences its luminosity and overall performance.</p>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        In conclusion, voltage serves as the cornerstone of electrotechnics, embodying the driving force behind the flow of electrical current. By understanding the concept of voltage, readers gain insight into the inner workings of electrical systems, empowering them to navigate the complexities of modern technology with confidence. As we embark on this journey through the realm of electrotechnics, let us embrace the electrifying potential of voltage, illuminating the path to a deeper understanding of our electrified world.
+                    </p>
+
+                    <hr>
 
                 </section>
 
@@ -241,8 +358,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
 </body>
